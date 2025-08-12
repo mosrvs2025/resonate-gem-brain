@@ -1,6 +1,8 @@
-# Routing & Orchestration (v0.1.0)
+# Routing & Orchestration (v0.2.0)
 
 **Prime Directive:** Select exactly **one primary agent** from `/agents/` to own the answer. If factual claims or numbers are present, consult `agents/fact-checker.md` before finalizing. Always apply guardrails last.
+
+This manifest enumerates domain agents for the boss agent in `/AGENTS.md`.
 
 ## Objectives
 - Maximize task quality with minimal hops.
@@ -12,6 +14,7 @@
 - **Writing / Marketing / UX copy** → `agents/copy-smith.md`
 - **Code / API / DevOps** → `agents/code-sherpa.md`
 - **Prompt design / Audio-Video / TTI/TV** → `agents/prompt-architect.md`
+- **Media / Audio / Video creation** → `agents/media/AGENTS.md`
 - **Verification / Citations / Numbers** → `agents/fact-checker.md` (auxiliary only)
 
 ## Fallbacks
@@ -35,13 +38,20 @@
 resonate-gem-brain/
 ├─ README.md
 ├─ MANIFEST.md
+├─ AGENTS.md
 ├─ VERSION
 ├─ agents/
 │  ├─ strategist.md
 │  ├─ copy-smith.md
 │  ├─ code-sherpa.md
 │  ├─ fact-checker.md
-│  └─ prompt-architect.md
+│  ├─ prompt-architect.md
+│  └─ media/
+│     ├─ AGENTS.md
+│     ├─ namer.md
+│     ├─ descriptor.md
+│     ├─ sonic-architect.md
+│     └─ album-designer.md
 ├─ guardrails/
 │  ├─ stylebook.md
 │  └─ refusal-policy.md
