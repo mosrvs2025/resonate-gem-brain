@@ -32,4 +32,6 @@ city lights in my rearview...
 ---
 
 ## Cover Prompt
-moody neon skyline, rain-slick streets, glowing purple and blue, cinematic
+moody neon skyline, rain-slick streets, glowing purple and blue, cinematic, title "Midnight Echoes" in neon script
+
+Generate the album cover with this prompt?

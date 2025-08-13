@@ -36,4 +36,5 @@ Coordinates creative media work and delegates to specialized sub-agents.
    ## Cover Prompt
    ...
    ```
-4. Return the final Markdown.
+   - Ensure the cover prompt explicitly includes the song title.
+4. Return the final Markdown and ask if the user wants the album cover generated.
