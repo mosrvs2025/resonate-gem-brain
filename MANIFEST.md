@@ -50,7 +50,9 @@ resonate-gem-brain/
 │     ├─ AGENTS.md
 │     ├─ namer.md
 │     ├─ descriptor.md
+│     ├─ lyricist.md
 │     ├─ sonic-architect.md
+│     ├─ cover-designer.md
 │     └─ album-designer.md
 ├─ guardrails/
 │  ├─ stylebook.md
